@@ -7,6 +7,14 @@ public class MovementShip : MonoBehaviour
 
     public float moveSpeed; //You can guess what this does
 
+    public float speedStore;
+    public bool actionActive;
+
+    ShipEmission shipEmitters;
+    public HUDManager hudManager;
+
+    [SerializeField] Camera cam;
+
     public float tilt; //How much tilt
     public float tiltSpeed; //Speed of tilt
     Vector3 tiltAngle; //ANgle of tilt
@@ -17,15 +25,26 @@ public class MovementShip : MonoBehaviour
         
     }
 
+    private void Awake()
+    {
+        speedStore = moveSpeed;
+        shipEmitters = GetComponent<ShipEmission>();
+        cam = Camera.main;
+    }
+
     // Update is called once per frame
     void Update()
     {
-        horiInput = Input.GetAxis("Horizontal");
-        vertInput = Input.GetAxis("Vertical");
+        horiInput = Input.GetAxisRaw("Horizontal");
+        vertInput = Input.GetAxisRaw("Vertical");
 
 
         HandleTilting();
         ClampToScreen();
+        SpeedInput();
+
+        if (hudManager.actionCDSlider.value >= 0.99f)
+            actionActive = true;
     }
 
     private void FixedUpdate()
@@ -35,10 +54,10 @@ public class MovementShip : MonoBehaviour
 
     void Movement() //moves :D
     {
-        transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime);
+        transform.Translate(Vector3.forward * moveSpeed * Time.fixedDeltaTime, Space.Self);
 
         Vector3 movement = new Vector3(horiInput, vertInput, 0); //gets current movment
-        transform.localPosition += new Vector3(movement.x, movement.y, movement.z) * moveSpeed * Time.deltaTime; //moves object to that movement
+        transform.localPosition += movement * moveSpeed * Time.fixedDeltaTime;
     }
 
     void HandleTilting()
@@ -69,4 +88,42 @@ public class MovementShip : MonoBehaviour
         pos.y = Mathf.Clamp01(pos.y);
         transform.position = Camera.main.ViewportToWorldPoint(pos);
     }
+
+    void SpeedInput()
+    {
+        if (Input.GetKeyDown(KeyCode.O) && actionActive) //boost
+        {
+            SpeedAction(20f, -15f);
+            shipEmitters.EmitBoost();
+        } else if (Input.GetKeyDown(KeyCode.O) || hudManager.actionCDSlider.value <= 0)
+        {
+            SystemsNormal(-10f);
+        }
+
+        if (Input.GetKeyDown(KeyCode.P) && actionActive) //brake
+        {
+            SpeedAction(5f, -5f);
+            shipEmitters.EmitBrake();
+        } else if (Input.GetKeyDown(KeyCode.P) || hudManager.actionCDSlider.value <= 0)
+        {
+            SystemsNormal(-10f);
+        }
+    }
+
+    void SpeedAction(float newSpeed, float camZOffset)
+    {
+        moveSpeed = newSpeed;
+        cam.GetComponent<CameraControl>().offSet.z = camZOffset;
+        hudManager.actionCooling = false;
+    }
+
+    void SystemsNormal(float camZOffset)
+    {
+        moveSpeed = speedStore;
+        cam.GetComponent<CameraControl>().offSet.z = camZOffset;
+        hudManager.actionCooling = true;
+        actionActive = false;
+        shipEmitters.EmitNorm();
+    }
+
 }

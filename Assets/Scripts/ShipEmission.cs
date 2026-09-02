@@ -1,33 +1,57 @@
 using UnityEngine;
+using YourNamespace;
 
 public class ShipEmission : MonoBehaviour
 {
+    [Header("Main VFX")]
+    [SerializeField] private VFX_FireController fullOpaqueFire;
 
-    public Transform emitter;
-    public TrailRenderer[] wingTrails;
-    [SerializeField] bool emitTrails;
+    [Header("Fast Movement VFX")]
+    [SerializeField] private TrailRenderer[] wingTrails;
 
-    [SerializeField] float scaleMultiplier = 1.5f;
-    [SerializeField] float scaleSpeed = 5f;
+    [Header("Fire Intensity")]
+    [SerializeField] private float normalIntensity = 1f;
+    [SerializeField] private float boostIntensity = 2f;
+    [SerializeField] private float brakeIntensity = 0.5f;
 
-    Vector3 defaultScale, targetScale;
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    private void Start()
     {
-        defaultScale = emitter.localScale;
-        targetScale = defaultScale;
+        EmitNorm();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void EmitNorm()
     {
-        targetScale = defaultScale * scaleMultiplier;
-        emitTrails = true;
+        // Normal engine fire
+        fullOpaqueFire.SetFireIntensity(normalIntensity);
+
+        // No wing trails
+        SetWingTrails(false);
+    }
+
+    public void EmitBoost()
+    {
+        // Bigger/stronger engine fire
+        fullOpaqueFire.SetFireIntensity(boostIntensity);
+
+        // Enable wing trails
+        SetWingTrails(true);
     }
 
     public void EmitBrake()
     {
-        targetScale = defaultScale * 0.5f;
+        // Smaller/weaker engine fire
+        fullOpaqueFire.SetFireIntensity(brakeIntensity);
+
+        // No wing trails
+        SetWingTrails(false);
+    }
+
+    private void SetWingTrails(bool enabled)
+    {
+        foreach (TrailRenderer trail in wingTrails)
+        {
+            if (trail != null)
+                trail.emitting = enabled;
+        }
     }
 }
