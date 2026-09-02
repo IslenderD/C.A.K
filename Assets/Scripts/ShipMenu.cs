@@ -1,7 +1,7 @@
 // Controls idle movement of the menu's ship
 using UnityEngine;
 
-public class FloatIdle : MonoBehaviour
+public class ShipMenu : MonoBehaviour
 {
     [SerializeField] float bobAmplitude = 0.15f;
     [SerializeField] float bobSpeed = 0.8f;
