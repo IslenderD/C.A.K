@@ -20,6 +20,7 @@ public class CameraControl : MonoBehaviour
 
     public bool isReversed = false;
     public bool isUpsideDown = false;
+    public bool isSideWays = false;
 
     public bool isTransitioning;
 
@@ -39,6 +40,20 @@ public class CameraControl : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.N))
         {
             isUpsideDown = !isUpsideDown;
+            if (isUpsideDown)
+            {
+                isSideWays = false;
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.B))
+        {
+            isSideWays = !isSideWays;
+            if (isSideWays)
+            {
+                isUpsideDown = false;
+                omgIsLikeFez = false;
+            }
         }
 
         if (Input.GetKeyDown(KeyCode.V))
@@ -49,6 +64,7 @@ public class CameraControl : MonoBehaviour
                 // Turn off other modes so they don't conflict with 2D
                 isReversed = false;
                 isUpsideDown = false;
+                isSideWays = false;
             }
         }
     }
@@ -76,6 +92,9 @@ public class CameraControl : MonoBehaviour
             if (isUpsideDown == true)
             {
                 targetZAngle = 180f;
+            } else if (isSideWays == true)
+            {
+                targetZAngle = -90f;
             }
         }
 
