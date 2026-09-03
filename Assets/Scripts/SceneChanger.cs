@@ -10,7 +10,14 @@ public class SceneChanger : MonoBehaviour
     public void Change(string sceneToChange)
     {
         faceAnim.Play("FadeToBlack");
-        StartCoroutine(Delay(sceneToChange));
+        if (sceneToChange == null)
+        {
+            StartCoroutine(Delay("SampleScene"));
+        }
+        else
+        {
+            StartCoroutine(Delay(sceneToChange));
+        }
     } 
 
     IEnumerator Delay(string sceneToChange)
