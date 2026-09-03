@@ -48,7 +48,8 @@ public class HazardWarning : MonoBehaviour
             Vector3 screenPos = cam.WorldToScreenPoint(fakePosition);
 
             warningRect.position = screenPos;
-        } else if (distanceToPlayer <= 0) //player dodge it
+        }
+        else if (distanceToPlayer <= 0) //player dodge it
         {
             isPassed = true;
             if (warningInstance != null) // Clean up

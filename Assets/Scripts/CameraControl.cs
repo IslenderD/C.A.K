@@ -1,8 +1,13 @@
 using System;
 using UnityEngine;
+using System.Collections;
 
 public class CameraControl : MonoBehaviour
 {
+
+    public float duration = 1f;
+    public AnimationCurve curve;
+
     [SerializeField] Transform playerTrg;
 
     public float smoothSpeed = 0.1f;
@@ -107,4 +112,20 @@ public class CameraControl : MonoBehaviour
 
         transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, smoothSpeed);
     }
+    public IEnumerator Shaking()
+    {
+        Vector3 start = transform.position;
+        float elapsedTime = 0f;
+
+        while (elapsedTime < duration)
+        {
+            elapsedTime += Time.deltaTime;
+            float strength = curve.Evaluate(elapsedTime / duration);
+            transform.position = start + UnityEngine.Random.insideUnitSphere * strength;
+            yield return null;
+        }
+
+        transform.position = start;
+    }
+
 }
