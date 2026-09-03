@@ -5952,6 +5952,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Collision
   ship: {fileID: 1900069676}
   cam: {fileID: 330585545}
+  changeScene: {fileID: 0}
   explode: {fileID: 638998666}
 --- !u!1 &810888039
 GameObject:
