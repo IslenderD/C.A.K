@@ -1,10 +1,14 @@
 using UnityEngine;
+using System.Collections;
+using System;
 
 public class Collision : MonoBehaviour
 {
     [SerializeField] GameObject ship;
     [SerializeField] Camera cam;
     CameraControl camC;
+
+    public SceneChanger changeScene;
 
     public ExplosionScript explode;
 
@@ -19,7 +23,14 @@ public class Collision : MonoBehaviour
             explode.Do();
 
             ship.SetActive(false);
-            //ship.
+
+            StartCoroutine(ChangeSceneAfter());
         }
     }
+
+    IEnumerator ChangeSceneAfter()
+    {
+        yield return new WaitForSeconds(0.4f);
+        changeScene.Change("StartMenu");
+    } 
 }
