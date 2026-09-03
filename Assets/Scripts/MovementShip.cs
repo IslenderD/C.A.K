@@ -8,10 +8,15 @@ public class MovementShip : MonoBehaviour
     public float moveSpeed; //You can guess what this does
 
     public float speedStore;
+
+    public enum States { Normal, Boost, Break }
+    public States currentState = States.Normal;
     public bool actionActive;
 
     ShipEmission shipEmitters;
     public HUDManager hudManager;
+
+
 
     [SerializeField] Camera cam;
 
@@ -19,17 +24,14 @@ public class MovementShip : MonoBehaviour
     public float tiltSpeed; //Speed of tilt
     Vector3 tiltAngle; //ANgle of tilt
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    CameraControl camC;
 
     private void Awake()
     {
         speedStore = moveSpeed;
         shipEmitters = GetComponent<ShipEmission>();
         cam = Camera.main;
+        camC = cam.GetComponent<CameraControl>();
     }
 
     // Update is called once per frame
@@ -38,10 +40,18 @@ public class MovementShip : MonoBehaviour
         horiInput = Input.GetAxisRaw("Horizontal");
         vertInput = Input.GetAxisRaw("Vertical");
 
+        if (camC.isUpsideDown && !camC.omgIsLikeFez)
+        {
+            horiInput = -horiInput;
+        }
 
         HandleTilting();
-        ClampToScreen();
         SpeedInput();
+
+        if (!camC.isTransitioning)
+        {
+            ClampToScreen();
+        }
 
         if (hudManager.actionCDSlider.value >= 0.99f)
             actionActive = true;
@@ -56,7 +66,19 @@ public class MovementShip : MonoBehaviour
     {
         transform.Translate(Vector3.forward * moveSpeed * Time.fixedDeltaTime, Space.Self);
 
-        Vector3 movement = new Vector3(horiInput, vertInput, 0); //gets current movment
+        Vector3 movement;
+        if (camC.omgIsLikeFez)
+        {
+            movement = new Vector3(0, vertInput, horiInput);
+
+            Vector3 localPos = transform.localPosition;
+            localPos.x = Mathf.Lerp(localPos.x, 0f, Time.fixedDeltaTime * 5f);
+            transform.localPosition = localPos;
+        } else
+        {
+            movement = new Vector3(horiInput, vertInput, 0);
+        }
+
         transform.localPosition += movement * moveSpeed * Time.fixedDeltaTime;
     }
 
@@ -83,44 +105,48 @@ public class MovementShip : MonoBehaviour
 
     void ClampToScreen()
     {
-        Vector3 pos = Camera.main.WorldToViewportPoint(transform.position);
+        Vector3 pos = cam.WorldToViewportPoint(transform.position);
         pos.x = Mathf.Clamp01(pos.x);
         pos.y = Mathf.Clamp01(pos.y);
-        transform.position = Camera.main.ViewportToWorldPoint(pos);
+        transform.position = cam.ViewportToWorldPoint(pos);
     }
 
     void SpeedInput()
     {
-        if (Input.GetKeyDown(KeyCode.O) && actionActive) //boost
+        if (actionActive && currentState == States.Normal)
         {
-            SpeedAction(20f, -15f);
-            shipEmitters.EmitBoost();
-        } else if (Input.GetKeyDown(KeyCode.O) || hudManager.actionCDSlider.value <= 0)
-        {
-            SystemsNormal(-10f);
+            if (Input.GetKeyDown(KeyCode.O)) // Boost
+            {
+                ActivateAction(States.Boost, 20f, -15f);
+                shipEmitters.EmitBoost();
+            }
+            else if (Input.GetKeyDown(KeyCode.P)) // Brake
+            {
+                ActivateAction(States.Break, 5f, -5f);
+                shipEmitters.EmitBrake();
+            }
         }
 
-        if (Input.GetKeyDown(KeyCode.P) && actionActive) //brake
-        {
-            SpeedAction(5f, -5f);
-            shipEmitters.EmitBrake();
-        } else if (Input.GetKeyDown(KeyCode.P) || hudManager.actionCDSlider.value <= 0)
+        if (currentState != States.Normal && hudManager.actionCDSlider.value <= 0.05f)
         {
             SystemsNormal(-10f);
         }
     }
 
-    void SpeedAction(float newSpeed, float camZOffset)
+    void ActivateAction(States state, float newSpeed, float camZOffset)
     {
+        currentState = state;
+        actionActive = false;
         moveSpeed = newSpeed;
-        cam.GetComponent<CameraControl>().offSet.z = camZOffset;
+        camC.offSet.z = camZOffset;
         hudManager.actionCooling = false;
-    }
+    }   
 
     void SystemsNormal(float camZOffset)
     {
+        currentState = States.Normal;
         moveSpeed = speedStore;
-        cam.GetComponent<CameraControl>().offSet.z = camZOffset;
+        camC.offSet.z = camZOffset;
         hudManager.actionCooling = true;
         actionActive = false;
         shipEmitters.EmitNorm();
