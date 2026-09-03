@@ -5952,7 +5952,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Collision
   ship: {fileID: 1900069676}
   cam: {fileID: 330585545}
-  changeScene: {fileID: 1991827376}
+  changeScene: {fileID: 0}
   explode: {fileID: 638998666}
 --- !u!1 &810888039
 GameObject:
@@ -7167,7 +7167,6 @@ GameObject:
   - component: {fileID: 1991827374}
   - component: {fileID: 1991827373}
   - component: {fileID: 1991827372}
-  - component: {fileID: 1991827376}
   m_Layer: 5
   m_Name: CanvasChanger
   m_TagString: Untagged
@@ -7258,19 +7257,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &1991827376
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1991827371}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ccbef51558aa2fe49934e6abccd495b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SceneChanger
-  faceAnim: {fileID: 1074980663}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
