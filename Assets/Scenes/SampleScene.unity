@@ -6105,7 +6105,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Collision
   ship: {fileID: 1900069676}
   cam: {fileID: 330585545}
-  changeScene: {fileID: 0}
+  changeScene: {fileID: 1074980666}
   explode: {fileID: 638998666}
 --- !u!1 &793403955
 GameObject:
@@ -6409,6 +6409,7 @@ GameObject:
   - component: {fileID: 1074980665}
   - component: {fileID: 1074980664}
   - component: {fileID: 1074980663}
+  - component: {fileID: 1074980666}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -6423,7 +6424,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1074980661}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 561.85, y: 259.1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -6432,7 +6433,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -1277.7218, y: -717.2211}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1074980663
@@ -6495,6 +6496,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1074980661}
   m_CullTransparentMesh: 1
+--- !u!114 &1074980666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1074980661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccbef51558aa2fe49934e6abccd495b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SceneChanger
+  faceAnim: {fileID: 1074980663}
 --- !u!1 &1078217733
 GameObject:
   m_ObjectHideFlags: 0
