@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -16,7 +17,15 @@ public class MovementShip : MonoBehaviour
     ShipEmission shipEmitters;
     public HUDManager hudManager;
 
+    [Header("Reaction Time")]
+    public float slowDownDuration = 1f;
+    public float slowDownAmount = 0.6f;
 
+    private bool prevReversed;
+    private bool prevUpsideDown;
+    private bool prevSideWays;
+    private bool prevFez;
+    private Coroutine slowdownCoroutine;
 
     [SerializeField] Camera cam;
 
@@ -26,12 +35,25 @@ public class MovementShip : MonoBehaviour
 
     CameraControl camC;
 
+
+
     private void Awake()
     {
         speedStore = moveSpeed;
         shipEmitters = GetComponent<ShipEmission>();
         cam = Camera.main;
         camC = cam.GetComponent<CameraControl>();
+    }
+
+    private void Start()
+    {
+        if (camC != null)
+        {
+            prevReversed = camC.isReversed;
+            prevUpsideDown = camC.isUpsideDown;
+            prevSideWays = camC.isSideWays;
+            prevFez = camC.omgIsLikeFez;
+        }
     }
 
     // Update is called once per frame
@@ -45,6 +67,7 @@ public class MovementShip : MonoBehaviour
             horiInput = -horiInput;
         }
 
+        CheckCameraChange();
         HandleTilting();
         SpeedInput();
 
@@ -81,6 +104,52 @@ public class MovementShip : MonoBehaviour
 
         transform.localPosition += movement * moveSpeed * Time.fixedDeltaTime;
     }
+
+
+    void CheckCameraChange()
+    {
+        if (camC.isReversed != prevReversed || camC.isUpsideDown != prevUpsideDown ||
+            camC.isSideWays != prevSideWays || camC.omgIsLikeFez != prevFez)
+        {
+            // Camera changed! Start the slowdown effect.
+            if (slowdownCoroutine != null) StopCoroutine(slowdownCoroutine);
+            slowdownCoroutine = StartCoroutine(ReactionSlowdownRoutine());
+
+            // Update our previous tracking variables
+            prevReversed = camC.isReversed;
+            prevUpsideDown = camC.isUpsideDown;
+            prevSideWays = camC.isSideWays;
+            prevFez = camC.omgIsLikeFez;
+        }
+    }
+
+
+    IEnumerator ReactionSlowdownRoutine()
+    {
+        float elapsed = 0f;
+        float targetSlowSpeed = speedStore * slowDownAmount; // E.g., 40% of normal speed
+
+        while (elapsed < slowDownDuration)
+        {
+            elapsed += Time.deltaTime;
+
+            // We ONLY manipulate speed if the player isn't actively boosting or breaking
+            if (currentState == States.Normal)
+            {
+                // Smoothly ramp the speed back up from slow to normal over the duration
+                moveSpeed = Mathf.Lerp(targetSlowSpeed, speedStore, elapsed / slowDownDuration);
+            }
+
+            yield return null; // Wait for the next frame
+        }
+
+        // Ensure we end up exactly at normal speed (if not boosting/breaking)
+        if (currentState == States.Normal)
+        {
+            moveSpeed = speedStore;
+        }
+    }
+
 
     void HandleTilting()
     {

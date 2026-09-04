@@ -1,8 +1,7 @@
 using UnityEngine;
 
 public class HazardWarning : MonoBehaviour
-{
-    public bool doIWarn = false;
+{ 
 
     [Header("UI Settings")]
     public GameObject warningPrefab;
@@ -16,27 +15,43 @@ public class HazardWarning : MonoBehaviour
     // Cached references
     private Transform player;
     private Camera cam;
+    private CameraControl camControl;
     private Canvas mainCanvas;
 
     private bool isPassed = false;
 
     void Start()
     {
-        if (!doIWarn)
-            return;
-
         player = GameObject.FindGameObjectWithTag("Player").transform;
         cam = Camera.main;
+        if (cam != null)
+        {
+            camControl = cam.GetComponent<CameraControl>();
+        }
+
         mainCanvas = FindFirstObjectByType<Canvas>();
     }
 
     void Update()
     {
-        if (!doIWarn || isPassed || player == null)
+        if (isPassed || player == null || camControl == null)
+        {
+            CleanUpWarning();
             return;
+        }
+
+        bool isFrontalCamera = camControl.isReversed;
+
         float distanceToPlayer = transform.position.z - player.position.z; // how far the obstacle
 
-        if (distanceToPlayer <= showWarningDistance && distanceToPlayer > 0) // in range
+        if (distanceToPlayer <= 0) //player dodge it
+        {
+            isPassed = true;
+            CleanUpWarning();
+            return;
+        }
+
+        if (distanceToPlayer <= showWarningDistance && isFrontalCamera) // in range
         {
             if (warningInstance == null) //ui not created
             {
@@ -49,22 +64,22 @@ public class HazardWarning : MonoBehaviour
 
             warningRect.position = screenPos;
         }
-        else if (distanceToPlayer <= 0) //player dodge it
+        else
         {
-            isPassed = true;
-            if (warningInstance != null) // Clean up
-            {
-                Destroy(warningInstance);
-            }
+            CleanUpWarning();
+        }
+    }
+    private void CleanUpWarning()
+    {
+        if (warningInstance != null)
+        {
+            Destroy(warningInstance);
         }
     }
 
     // Backup cleanup just in case the scene unloads
     void OnDestroy()
     {
-        if (warningInstance != null)
-        {
-            Destroy(warningInstance);
-        }
+        CleanUpWarning();
     }
 }
