@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 7cb8738d753bc2945baa993c576034f5, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -233,7 +233,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &17713284
@@ -644,7 +643,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &29913482
@@ -818,7 +816,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &52959609
@@ -992,7 +989,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &53495504
@@ -1201,7 +1197,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &77495485
@@ -1375,7 +1370,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &89705072
@@ -1549,7 +1543,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &101066777
@@ -1723,7 +1716,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &109074549
@@ -1897,7 +1889,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &120673601
@@ -2071,7 +2062,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &123126865
@@ -2245,7 +2235,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &133966356
@@ -2419,7 +2408,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &154280580
@@ -2629,7 +2617,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &189659468
@@ -2803,7 +2790,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &195209000
@@ -2977,7 +2963,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &195438718
@@ -3136,7 +3121,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &216352432
@@ -3325,7 +3309,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &237212307
@@ -3499,7 +3482,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &265732863
@@ -3825,7 +3807,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &289044219
@@ -3999,7 +3980,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &300422704
@@ -4257,6 +4237,10 @@ MonoBehaviour:
   reversedOffset: 15
   omgIsLikeFez: 0
   sideViewOffset: {x: 20, y: 0, z: 0}
+  randomizer: 1
+  randomInterval: 5
+  normalPeriod: 5
+  timerText: {fileID: 0}
 --- !u!1 &340169354
 GameObject:
   m_ObjectHideFlags: 0
@@ -4371,7 +4355,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &340169360
@@ -4545,7 +4528,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &351505677
@@ -4719,7 +4701,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &356618500
@@ -4893,7 +4874,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &359001256
@@ -5067,7 +5047,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &367148666
@@ -5241,7 +5220,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &371727284
@@ -5542,7 +5520,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &419653173
@@ -5602,6 +5579,135 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 419653167}
   m_Mesh: {fileID: 4444728127320036556, guid: ef26d5cd186199b479907eb22e6c2e71, type: 3}
+--- !u!1 &423525108
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 423525110}
+  - component: {fileID: 423525109}
+  m_Layer: 0
+  m_Name: play
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &423525109
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 423525108}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 50b4f972d2ef709429c62c2bed2fd1c8, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &423525110
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 423525108}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 15.40331, y: -0, z: -18.73295}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &436179165
 GameObject:
   m_ObjectHideFlags: 0
@@ -5716,7 +5822,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &436179171
@@ -5890,7 +5995,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &449148400
@@ -6064,7 +6168,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &458288695
@@ -6238,7 +6341,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &458369767
@@ -6412,7 +6514,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &460466396
@@ -6586,7 +6687,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &461706101
@@ -6760,7 +6860,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &464702207
@@ -6934,7 +7033,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &481055325
@@ -7216,7 +7314,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &494321858
@@ -7390,7 +7487,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &524645047
@@ -7564,7 +7660,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &527992075
@@ -7738,7 +7833,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &533552430
@@ -7798,119 +7892,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 533552424}
   m_Mesh: {fileID: 8204137566577028532, guid: be5b19b4bbd1d4741a15385843f2ac2c, type: 3}
---- !u!1 &568685358
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 568685362}
-  - component: {fileID: 568685361}
-  - component: {fileID: 568685360}
-  - component: {fileID: 568685359}
-  m_Layer: 0
-  m_Name: Plane (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!64 &568685359
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 568685358}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &568685360
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 568685358}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_MaskInteraction: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &568685361
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 568685358}
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &568685362
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 568685358}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 18, y: 6, z: 450}
-  m_LocalScale: {x: 54.099, y: 1, z: 92.5027}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &577751672
 GameObject:
   m_ObjectHideFlags: 0
@@ -8025,7 +8006,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &577751678
@@ -8199,7 +8179,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &606589989
@@ -8373,7 +8352,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &620455070
@@ -8547,7 +8525,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &620856673
@@ -13695,7 +13672,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &663727208
@@ -13927,7 +13903,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &713702352
@@ -14138,7 +14113,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &743585749
@@ -14342,6 +14316,8 @@ MonoBehaviour:
   currentState: 0
   actionActive: 0
   hudManager: {fileID: 1314733999}
+  slowDownDuration: 1
+  slowDownAmount: 0.6
   cam: {fileID: 330585545}
   tilt: 30
   tiltSpeed: 0.1
@@ -14532,7 +14508,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &795903439
@@ -14706,7 +14681,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &796491078
@@ -14880,7 +14854,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &804130323
@@ -15054,7 +15027,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &810352597
@@ -15340,7 +15312,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &824698631
@@ -15445,119 +15416,6 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &845362393
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 845362397}
-  - component: {fileID: 845362396}
-  - component: {fileID: 845362395}
-  - component: {fileID: 845362394}
-  m_Layer: 0
-  m_Name: Plane
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!64 &845362394
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 845362393}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &845362395
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 845362393}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_MaskInteraction: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &845362396
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 845362393}
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &845362397
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 845362393}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1, y: -12, z: 450}
-  m_LocalScale: {x: 54.099, y: 1, z: 92.5027}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -15676,7 +15534,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &858339910
@@ -15850,7 +15707,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &895517296
@@ -16024,7 +15880,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &907828235
@@ -16198,7 +16053,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &918678793
@@ -16372,7 +16226,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &977832566
@@ -16546,7 +16399,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1001586634
@@ -16720,7 +16572,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1023349731
@@ -16894,7 +16745,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1025035394
@@ -17068,7 +16918,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1032263067
@@ -17242,7 +17091,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1046288624
@@ -17416,7 +17264,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1063053692
@@ -17720,7 +17567,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1086240999
@@ -18045,7 +17891,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1116819888
@@ -18219,7 +18064,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1125466206
@@ -18393,7 +18237,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1146968065
@@ -18567,7 +18410,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1148398114
@@ -18816,7 +18658,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1185628333
@@ -18990,7 +18831,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1185994945
@@ -19149,7 +18989,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1186022890
@@ -19338,7 +19177,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1203474282
@@ -19512,7 +19350,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1203500591
@@ -19686,7 +19523,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1245801912
@@ -19860,7 +19696,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1246982254
@@ -20034,7 +19869,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1250056105
@@ -20208,7 +20042,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1251806737
@@ -20268,119 +20101,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1251806731}
   m_Mesh: {fileID: 289301614986012343, guid: a216b9f3f681d3c43a1646e7fc8721f0, type: 3}
---- !u!1 &1255073905
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1255073909}
-  - component: {fileID: 1255073908}
-  - component: {fileID: 1255073907}
-  - component: {fileID: 1255073906}
-  m_Layer: 0
-  m_Name: Plane (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!64 &1255073906
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1255073905}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &1255073907
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1255073905}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_MaskInteraction: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1255073908
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1255073905}
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &1255073909
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1255073905}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
-  m_LocalPosition: {x: 1, y: 12, z: 450}
-  m_LocalScale: {x: 54.099, y: 1, z: 92.5027}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!1 &1260770409
 GameObject:
   m_ObjectHideFlags: 0
@@ -20495,7 +20215,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1260770415
@@ -20669,7 +20388,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1277055737
@@ -20890,7 +20608,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1315222044
@@ -21064,7 +20781,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1321529445
@@ -21238,7 +20954,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1341083326
@@ -21412,7 +21127,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1361811289
@@ -21586,7 +21300,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1376840298
@@ -21911,7 +21624,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1406445579
@@ -22085,7 +21797,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1428133458
@@ -22259,7 +21970,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1501763024
@@ -22433,7 +22143,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1513484828
@@ -22607,7 +22316,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1522494428
@@ -22781,7 +22489,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1523279308
@@ -22955,7 +22662,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1533500470
@@ -23129,7 +22835,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1556579108
@@ -23303,7 +23008,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1557722142
@@ -23477,7 +23181,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1567518259
@@ -23651,7 +23354,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1592019825
@@ -23825,7 +23527,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1616931408
@@ -23999,7 +23700,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1625219755
@@ -24242,7 +23942,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1649429047
@@ -24416,7 +24115,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1671394436
@@ -24590,7 +24288,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1689715935
@@ -24764,7 +24461,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1695066431
@@ -24938,7 +24634,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1726518198
@@ -25112,7 +24807,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1741287068
@@ -25286,7 +24980,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1781750570
@@ -25460,7 +25153,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1797561574
@@ -25634,7 +25326,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1808190510
@@ -25694,119 +25385,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1808190504}
   m_Mesh: {fileID: 289301614986012343, guid: a216b9f3f681d3c43a1646e7fc8721f0, type: 3}
---- !u!1 &1837048775
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1837048779}
-  - component: {fileID: 1837048778}
-  - component: {fileID: 1837048777}
-  - component: {fileID: 1837048776}
-  m_Layer: 0
-  m_Name: Plane (3)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!64 &1837048776
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1837048775}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &1837048777
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1837048775}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_MaskInteraction: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1837048778
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1837048775}
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &1837048779
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1837048775}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: 0.7071068, w: -0.7071068}
-  m_LocalPosition: {x: -18, y: 6, z: 450}
-  m_LocalScale: {x: 54.099, y: 1, z: 92.5027}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 270}
 --- !u!1 &1844200013
 GameObject:
   m_ObjectHideFlags: 0
@@ -25921,7 +25499,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1844200019
@@ -26200,7 +25777,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1860330750
@@ -26374,7 +25950,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1871099118
@@ -26548,7 +26123,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1873745646
@@ -26846,7 +26420,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1904470139
@@ -26962,7 +26535,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 1
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1931178748
@@ -27178,7 +26750,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1947265409
@@ -27467,7 +27038,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1961227870
@@ -27731,7 +27301,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1976751648
@@ -27905,7 +27474,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &1976937570
@@ -28195,7 +27763,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &2012228218
@@ -28369,7 +27936,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &2047153140
@@ -28696,7 +28262,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &2090825759
@@ -28870,7 +28435,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &2108720301
@@ -29044,7 +28608,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &2117152728
@@ -29218,7 +28781,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &2121573706
@@ -29392,7 +28954,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &2124398656
@@ -29566,7 +29127,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &2132779129
@@ -29740,7 +29300,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &2138235586
@@ -29914,7 +29473,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  doIWarn: 0
   warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
   showWarningDistance: 40
 --- !u!23 &2146198772
@@ -29982,10 +29540,6 @@ SceneRoots:
   - {fileID: 410087041}
   - {fileID: 832575519}
   - {fileID: 790655751}
-  - {fileID: 845362397}
-  - {fileID: 1255073909}
-  - {fileID: 568685362}
-  - {fileID: 1837048779}
   - {fileID: 1314733998}
   - {fileID: 1947586874}
   - {fileID: 1931178750}
@@ -29995,3 +29549,4 @@ SceneRoots:
   - {fileID: 702608591}
   - {fileID: 216352434}
   - {fileID: 1186022892}
+  - {fileID: 423525110}
