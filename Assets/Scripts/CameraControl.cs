@@ -25,7 +25,7 @@ public class CameraControl : MonoBehaviour
 
     public bool isTransitioning;
 
-    public float reversedOffset = 15f;
+    public float reversedOffset = 40f;
 
     public bool omgIsLikeFez = false;
     public Vector3 sideViewOffset = new Vector3(20f, 0f, 0f);

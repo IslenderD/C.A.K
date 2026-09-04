@@ -69,9 +69,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: -927199367670048503, guid: ded66f913097cbb42b7b2d421e06819a, type: 3}
-      insertIndex: 3
-      addedObject: {fileID: 6342384096897683901}
-    - targetCorrespondingSourceObject: {fileID: -927199367670048503, guid: ded66f913097cbb42b7b2d421e06819a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8952900223724566115}
     - targetCorrespondingSourceObject: {fileID: -927199367670048503, guid: ded66f913097cbb42b7b2d421e06819a, type: 3}
@@ -83,20 +80,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: ded66f913097cbb42b7b2d421e06819a, type: 3}
   m_PrefabInstance: {fileID: 4400563074538904887}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &6342384096897683901
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5634035962349143102}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39a82991ab719204b911d782fc555edd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::HazardWarning
-  warningPrefab: {fileID: 1012441303017705849, guid: d2dcb2e96b6815f46b1a76be7154c15f, type: 3}
-  showWarningDistance: 40
 --- !u!64 &8952900223724566115
 MeshCollider:
   m_ObjectHideFlags: 0
